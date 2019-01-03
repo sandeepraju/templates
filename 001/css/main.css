@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Patua+One');
+
+div.wrapper {
+    width: 80%;
+    margin-left: auto;
+}
+
+nav {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+h1.full-name {
+    font-family: 'Patua One', cursive;
+    font-weight: 700;
+    font-size: 4em;
+    color: #2f2f2f;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: inside;
+    float: left;
+    padding-right: 2em;
+}
+
+li.social-icon img {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+a:hover {
+    border-bottom: 1px dashed #999;
+  }
+
+article {
+    width: inherit;
+    font-family: 'Alegreya', serif;
+    font-size: 1.75em;
+    color: #2f2f2f;
+}
